@@ -14,7 +14,7 @@
 		27B8ABE41C1134BE00A1DB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABE31C1134BE00A1DB0D /* Assets.xcassets */; };
 		27B8ABE71C1134BE00A1DB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABE51C1134BE00A1DB0D /* LaunchScreen.storyboard */; };
 		27B8ABF81C11375D00A1DB0D /* DESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABF71C11375D00A1DB0D /* DESCrypt.m */; };
-		27B8ABFC1C11421200A1DB0D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABFA1C11421200A1DB0D /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		27B8ABFC1C11421200A1DB0D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABFA1C11421200A1DB0D /* GTMBase64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
