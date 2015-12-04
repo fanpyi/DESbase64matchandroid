@@ -13,6 +13,8 @@
 		27B8ABE21C1134BE00A1DB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABE01C1134BE00A1DB0D /* Main.storyboard */; };
 		27B8ABE41C1134BE00A1DB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABE31C1134BE00A1DB0D /* Assets.xcassets */; };
 		27B8ABE71C1134BE00A1DB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABE51C1134BE00A1DB0D /* LaunchScreen.storyboard */; };
+		27B8ABF81C11375D00A1DB0D /* DESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABF71C11375D00A1DB0D /* DESCrypt.m */; };
+		27B8ABFC1C11421200A1DB0D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABFA1C11421200A1DB0D /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		27B8ABE31C1134BE00A1DB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B8ABE61C1134BE00A1DB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B8ABE81C1134BE00A1DB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B8ABF61C11375D00A1DB0D /* DESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESCrypt.h; sourceTree = "<group>"; };
+		27B8ABF71C11375D00A1DB0D /* DESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESCrypt.m; sourceTree = "<group>"; };
+		27B8ABF91C11421200A1DB0D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		27B8ABFA1C11421200A1DB0D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		27B8ABFB1C11421200A1DB0D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,8 @@
 				27B8ABDB1C1134BE00A1DB0D /* AppDelegate.m */,
 				27B8ABDD1C1134BE00A1DB0D /* ViewController.h */,
 				27B8ABDE1C1134BE00A1DB0D /* ViewController.m */,
+				27B8ABF21C1135C900A1DB0D /* DES */,
+				27B8ABEE1C11355B00A1DB0D /* Base64 */,
 				27B8ABE01C1134BE00A1DB0D /* Main.storyboard */,
 				27B8ABE31C1134BE00A1DB0D /* Assets.xcassets */,
 				27B8ABE51C1134BE00A1DB0D /* LaunchScreen.storyboard */,
@@ -77,6 +86,25 @@
 				27B8ABD81C1134BE00A1DB0D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27B8ABEE1C11355B00A1DB0D /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				27B8ABF91C11421200A1DB0D /* GTMBase64.h */,
+				27B8ABFA1C11421200A1DB0D /* GTMBase64.m */,
+				27B8ABFB1C11421200A1DB0D /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		27B8ABF21C1135C900A1DB0D /* DES */ = {
+			isa = PBXGroup;
+			children = (
+				27B8ABF61C11375D00A1DB0D /* DESCrypt.h */,
+				27B8ABF71C11375D00A1DB0D /* DESCrypt.m */,
+			);
+			path = DES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B8ABF81C11375D00A1DB0D /* DESCrypt.m in Sources */,
 				27B8ABDF1C1134BE00A1DB0D /* ViewController.m in Sources */,
+				27B8ABFC1C11421200A1DB0D /* GTMBase64.m in Sources */,
 				27B8ABDC1C1134BE00A1DB0D /* AppDelegate.m in Sources */,
 				27B8ABD91C1134BE00A1DB0D /* main.m in Sources */,
 			);
